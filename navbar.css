@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgb(0, 137, 137);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    box-shadow: 1rem 1rem 1rem rgb(1, 1, 1);
+    min-width: 90vw;
+}
+.logo{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 2rem  rgb(1, 1, 1);
+    background-color: gray ;
+    position: absolute;
+    margin-top: 5rem
+}
+a{
+    text-decoration: none;
+    color: white;
+    position:sticky;
+}
+a:hover{
+    background-color: rgb(0, 87, 118);
+    text-decoration: underline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.5rem  rgb(1, 1, 1);
+    position: sticky;
+}
+.part1{
+    display: flex;
+    gap: 5rem;
+    padding-right: 4rem;
+}
+.part2{
+    display: flex;
+    gap: 5rem;
+    padding-left: 4rem;
+}
